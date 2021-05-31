@@ -17,7 +17,7 @@ int  main ()
 
     hacer
     {
-        printf ( " \ n Monto a depositar: " );
+        printf ( " \n Monto a depositar: " );
         scanf ( " % d " , & monto);
         banco = banco + monto;
         numerodedeposito = numerodedeposito + 1 ;
