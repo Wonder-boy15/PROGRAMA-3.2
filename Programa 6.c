@@ -1,6 +1,6 @@
 / * Dep3_Prog6:
 Un cuente el numero de veces que ahorras y nos diga el acumulado de ahorro * /
-# incluye  < stdio.h >
+# include  < stdio.h >
 int  main ()
 {
     int banco;
@@ -21,6 +21,7 @@ int  main ()
         scanf ( " % d " , & monto);
         banco = banco + monto;
         numerodedeposito = numerodedeposito + 1 ;
+
 
         printf ( " ¿Quieres realizar otro deposito? (s / n): " );
         scanf ( " % s " , & opc);
